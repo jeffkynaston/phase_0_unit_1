@@ -5,3 +5,6 @@
 * Did you find Chrome Web Tools fun, helpful, or a pain to work with?
 * Did you have an "aha" moments or were any concepts solidified?
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
+
+
+![Code School Awards](http://jeffkynaston.com/images/codeschool-awards.png "Code School Awards")
