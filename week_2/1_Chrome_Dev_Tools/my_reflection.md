@@ -19,4 +19,4 @@ Beyond using the Elemnts tab to identify and play with CSS, my first exposure to
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
 
 Nope, yours were great for this section. 
-
+Did anyone else notice that the code school Dev Tools instructor looked exactly like Eric the tech guy from NCIS Los Angeles? 
