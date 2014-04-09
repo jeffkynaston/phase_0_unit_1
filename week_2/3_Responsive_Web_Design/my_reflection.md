@@ -19,9 +19,7 @@ Visually impaired people use the web with the help of specialized software like 
 
 * What ideas and concepts have resonated with you when learning about the web and design? What seems stupid or doesn't make sense?
 
-My girlfriend is a UX/UI designer at LinkedIn so I have had a fair amount of exposure to design. Wireframing definitely makes sense and helps me with the general layout, although I'm not at the point where making a HiFi mock would be a good use of my time yet. I still like to jump into the CSS and play around in order to determine my margins and width %'s and the exact spacing. Once I have more experience building websites, I think that sort of detail will come naturally. 
-
-Overall I like design - I've subscribed to Adobe's Creative Suite for the last couple years and enjoy playing around in illustrator and photoshop. I do a lot of random projects in illstrator just to stay familiar with it and spent weeks in there on the design of my company's logo and business cards and website. In the end, coding is where my heart lies and I'm glad that it is a different disipline once you get to the professional level, but it's still a very important skill to have so I plan to keep up with it as much as possible.  
+Responsive CSS definitely resonates with me. Media queries seem pretty straight forward and very powerful, and using %s for sizes and widths was an easy transition. I don't feel like I completely understand the use of em for sizing, but will definitely research. The other thing I've wondered about is using pixel widths in a responsive design (for example: on margins). I think mixing them in a little bit is okay, but once I play around with it more I'll have a much better feeling for it. 
 
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
 
