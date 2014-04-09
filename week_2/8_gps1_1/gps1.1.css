@@ -1,28 +1,40 @@
 body {
-        margin: auto;
-        font-family: 'Open Sans';
-        font-weight: 300;
-        background: #F1F2EB;
-        max-width: 800px;
-        color: #F1F2EB;
-      }
-    
+  margin: auto;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  background: #F1F2EB;
+  max-width: 800px;
+  color: #F1F2EB;
+}
+
 header {
-        background: #049DBF;
-        margin-bottom: 10px;
-        text-align: center;
-      }  
-        
+  background: #049DBF;
+  margin-bottom: 10px;
+  text-align: center;
+}  
+  
 header h1 {
-        font-weight: 600;
-      }
-        
+  font-weight: 600;
+}
+  
 section {
-        background: #049DBF;
-      }
-      
+  background: #049DBF;
+  padding: 10px 20px;
+}
+
 article h2 {
-        text-align: center;
-        font-weight: 600;
-      }
-     
+  text-align: center;
+  font-weight: 600;
+}
+
+
+footer {
+  background: #049DBF;
+  margin-top: 10px;
+  padding: 20px;
+}  
+
+footer h2 {
+  font-size: 1.2em;
+  text-align: center;
+}
