@@ -1,1 +1,28 @@
-/* include your css here */
+body {
+        margin: auto;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        background: #F1F2EB;
+        max-width: 800px;
+        color: #F1F2EB;
+      }
+    
+header {
+        background: #049DBF
+        margin-bottom: 10px;
+        text-align: center;
+      }  
+        
+header h1 {
+        font-weight: 600;
+      }
+        
+section {
+        background: #049DBF;
+      }
+      
+article h2 {
+        text-align: center;
+        font-weight: 600;
+      }
+      
