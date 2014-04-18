@@ -4,7 +4,7 @@
 
 **This is a solo challenge. Refer to the [solo challenge](https://github.com/Devbootcamp/phase_0_handbook/blob/master/solo_challenges.md) guidelines in the [Phase 0 Handbook](https://github.com/Devbootcamp/phase_0_handbook/).**
 
-## Learning Objectives
+## Learning Competencies
 1. Define local variables in JavaScript
 2. Create, add properties to, delete properties from, and access values from JavaScript Object literals
 3. Use pre-written tests to drive development
@@ -85,6 +85,6 @@ Make sure to put everything (pseudocode, initial solution, refactored solution) 
 
 
 ##Reflect
-In the reflection section of your 'my_solution.js` file, reflect on your learning. Use the [reflection guidelines](../reflection_guidelines.md).. ***NOTE: Reflections are mandatory!***
+In the reflection section of your 'my_solution.js` file, reflect on your learning. Use the [reflection guidelines](../reflection_guidelines.md). ***NOTE: Reflections are mandatory!***
 
 
