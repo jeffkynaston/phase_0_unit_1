@@ -16,51 +16,154 @@ var terah = {
 1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
 
+Pseudocode: 
+define adam to be an empty object
+
 2. Give adam a name property with the value "Adam".
+
+Pseudocode:
+update adam object's name property to value "Adam"
 
 3. Add a spouse property to terah and assign it the value of adam.
 
+Pseudocode:
+update terah object's spouse property to value "Adam"
+
 4. Change the value of the terah weight property to 125.
+
+Pseudocode:
+update terah object's weight property to value 125
 
 5. Remove the eyeColor property from terah.
 
+Pseudocode: 
+delete terah object's eyeColor property
+
 6. Add a spouse property to adam and assign it the value of terah.
+
+Pseudocode:
+update adam object's spouse property to terah
 
 7. Add a children property to terah and and use object literal notation to assign 
    this variable the value of a JavaScript Object object with no properties
 
+Pseudocode:
+assign children variable to be an empty object
+update terah object's children property to be the children variable
+
 8. Add a carson property to the value of the terah children property and assign it 
   the value of an object with the property name with a value of "Carson".
+
+Pseudocode:
+assign carson variable to an object with property name: "name" and value: "Carson"
+update terah object's children property's carson property to be the carson variable
 
 9. Add a carter property to the value of the terah children property and assign it 
    the value of an object with the property name with a value of "Carter".
 
+Pseudocode:
+assign carter variable to an object with property name: "name" and value: "Carter"
+update terah object's children property's carter property to be the carter variable
+
 10. Add a colton property to the value of the terah children property and assign it 
     the value of an object with the property name with a value of "Colton".
 
+Pseudocode:
+assign colton variable to an object with property name: "name" and value: "Colton"
+update terah object's children property's colton property to be the colton variable
+
 11. Add a children property to adam and assign it the value of terah children.
 
+Pseudocode:
+assign adam object's children property to be the terah object's children property
 
 */
 
 // __________________________________________
 // Write your code below.
 
+// Initial Solution
+
+var adam = {
+};
+
+adam.name = "Adam";
+
+terah.spouse = adam;
+
+terah.weight = 125;
+
+delete terah.eyeColor;
+
+adam.spouse = terah;
+
+var children = {
+};
+terah.children = children;
+
+var carson = {
+  name: "Carson"
+};
+terah.children.carson = carson
+
+var carter = {
+  name: "Carter"
+};
+terah.children.carter = carter
+
+var colton = {
+  name: "Colton"
+};
+terah.children.colton = colton
+
+adam.children = terah.children
 
 
+// Refactored Solution
+// Not much changed in my refactored solution besides whitespace. 
+// This version is easier to read, but takes the same amount of steps.
+// I thought there would be a way to accomplish steps 7-10 in one step each, but
+// could not figure out the correct syntax.  
 
 
-
+var adam = {};
+adam.name = "Adam";
+terah.spouse = adam;
+terah.weight = 125;
+delete terah.eyeColor;
+adam.spouse = terah;
+var children = {};
+terah.children = children;
+var carson = {name: "Carson"};
+terah.children.carson = carson
+var carter = {name: "Carter"};
+terah.children.carter = carter
+var colton = {name: "Colton"};
+terah.children.colton = colton
+adam.children = terah.children
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
 // 
+// I thought that this challenge helped me most with pseudocode. When the directions were
+// short and easy, the psuedocode step felt a little repetitive. But once the directions 
+// became more complicated, the benefits of pseudocoding were obvious. I began to think through
+// the algorithm in the pseudocode stage, and write the grammer in such an order that it 
+// translated directly into code. I'm seeing some benefit to refactoring as well - even though I 
+// didn't eliminate any steps with my refactoring, I was able to make my coad more succinct and
+// more readable.
+//
+// My strategy for this challenge was to solve each part based off the instructions, and use 
+// the Driver Code tests as a check (as opposed to the last challenge, where the errors 
+// from the driver code were our instructions). Following each step literally, I ran 
+// into some problems with parts 7 - 10. They asked us to add properties and assign these 
+// properties values that were objects. I wanted to do this in 1 step, but ended up having to
+// define the object and assign it to a variable first, and then assign that variable to the property. 
 // 
-// 
-// 
-// 
-// 
+// The challenge did help to solidify the learning competencies - it provided good repitition
+// defining local local variables and gave me a good amount of practice creating, adding, and 
+// deleting properties from objects. 
 
 
 // __________________________________________
