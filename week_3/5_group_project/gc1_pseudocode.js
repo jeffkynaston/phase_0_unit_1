@@ -2,7 +2,7 @@
 
 1) Assign a new variable 'sum' to a function that takes one argument, an array
 2) Inside the sum() function, assign a new variable called 'total' a value of 0
-3) Inside the sum() function, use a while loop to traverse across the array and add each element to total
+3) Inside the sum() function, use a for loop to traverse across the array and add each element to total
 		-set counter i to 0
 		-set the condition for i to be less than the length of the array
 		-set i to increment 1 at the end of each iteration
