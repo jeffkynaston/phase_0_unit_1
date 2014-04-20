@@ -147,11 +147,11 @@ adam.children = terah.children
 // Reflection: Use the reflection guidelines
 // 
 // I thought that this challenge helped me most with pseudocode. When the directions were
-// short and easy, the psuedocode step felt a little repetitive. But once the directions 
+// short and easy, the seudocode step felt a little repetitive. But once the directions 
 // became more complicated, the benefits of pseudocoding were obvious. I began to think through
 // the algorithm in the pseudocode stage, and write the grammer in such an order that it 
 // translated directly into code. I'm seeing some benefit to refactoring as well - even though I 
-// didn't eliminate any steps with my refactoring, I was able to make my coad more succinct and
+// didn't eliminate any steps with my refactoring, I was able to make my code more succinct and
 // more readable.
 //
 // My strategy for this challenge was to solve each part based off the instructions, and use 

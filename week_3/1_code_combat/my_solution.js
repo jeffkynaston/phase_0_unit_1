@@ -5,7 +5,7 @@
 // command + / This will comment the line. 
  
  // Title: Rescue Mission
- // Psuedocode:
+ // Pseudocode:
  // move down x2
  // move right x1
  // move up x2
@@ -25,7 +25,7 @@ this.attackNearbyEnemy();
 
 
  // Title: Grab the Mushroom
- // Psuedocode:
+ // Pseudocode:
  // move up x1
  // move right x1
  // move left x1
@@ -40,7 +40,7 @@ this.attackNearbyEnemy();
  
 
  // Title: Drink Me
- // Psuedocode:
+ // Pseudocode:
  // move right x1
  // ATTACK!!!!@#!~#~@!~@~
  // move right x1
@@ -59,7 +59,7 @@ this.attackNearbyEnemy();
 
 
 // Title: Taunt the Guards
-// Psuedocode:
+// Pseudocode:
 // move right x1
 // BUST DOWN THAT DOOR
 // move right x1
@@ -103,7 +103,7 @@ this.moveRight();
 
 
 // Title: It's a Trap
-// Psuedocode:
+// Pseudocode:
 // move down 2x
 // taunt guard
 // move back up 2x
@@ -116,7 +116,7 @@ this.moveUp();
 
 
 // Title: Taunt
-// Psuedocode:
+// Pseudocode:
 // say 4 things
 
 this.say("Hey!");
@@ -126,7 +126,7 @@ this.say("NA NA NA NA");
 
 
 // Title: Cowardly Taunt
-// Psuedocode: 
+// Pseudocode: 
 // move to middle
 // taunt guards
 // move between towers
@@ -137,7 +137,7 @@ this.moveXY(70, 10);
 
 
 // Title: Commanding Followers
-// Psuedocode: 
+// Pseudocode: 
 // tell soldiers to follow
 // move down
 // tell soldiers to attack
@@ -148,7 +148,7 @@ this.say("Attack those nasty ogres!");
 
 
 // Title: Mobile Artillery
-// Psuedocode:
+// Pseudocode:
 // move into range
 // attack once
 // fire closer for second shot on ogre
