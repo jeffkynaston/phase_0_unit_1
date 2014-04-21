@@ -38,7 +38,16 @@ idea of what they were supposed to code.
 Was your group successful in passing the tests?
 
 - My group passed all but the last two tests, checking for median values. I played around with
-the code a bit to see why, and think the problem might be with our implementation of the sort
-function. 
+the code using node.js and identified the errors by throwing console.logs everywhere to see what
+my values were at each step. The .js file i used for this can be located here: 
+https://github.com/jeffkynaston/phase_0_unit_1/blob/master/week_3/5_group_project/median.js
 
 What did you learn about writing user stories, pseudocoding, writing code, refactoring, etc.?
+
+- The biggest thing I learned was that it is hard to separate all these parts of web development.
+Thinking through all of the logic during the pseudocoding stage proved difficult - there was 
+an error in my logic that I did not catch, and the error ended up in our final solution because
+the instructions from persons 3 and 4 were(Correctly) followed  literally (in case you are
+wondering, I did not take into account the fact that array indexes start at 0, not 1). When
+you work on all parts of development (user stories, pseudocoding, writing and refactoring) 
+you get a more wholistic approach and you are able to catch your own errors at previous stages.
