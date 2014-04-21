@@ -23,3 +23,22 @@
 11) If yes, add the array element at position [array length/2] and the array element at position
 		[(array length+2)/2]. Divide this sum by 2 and return the quotient
 12) If no, return the array element at position [(array length + 1) / 2]
+
+
+Reflections: 
+
+- What was this experience like?
+This was a very interesting experience. Initially, I thought the pseudocode would be one of
+the easier parts of the challenge. Once I started on it, however, I realized that it is
+pretty difficult to write clear, concise pseudocode that can be fully understood by another
+person and direclty translated into code. My pseudocode statements got pretty long at times,
+but I felt that was necessary in order to make sure that the next person had a comprehensive
+idea of what they were supposed to code. 
+
+Was your group successful in passing the tests?
+
+- My group passed all but the last two tests, checking for median values. I played around with
+the code a bit to see why, and think the problem might be with our implementation of the sort
+function. 
+
+What did you learn about writing user stories, pseudocoding, writing code, refactoring, etc.?
